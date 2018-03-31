@@ -15,7 +15,7 @@ import java.io.InputStreamReader;
 public class ReadJSONExample {
 
         // Read the company.json file and convert it to a java object.
-        public static Company readCompanyJSONFile(Context context) throws IOException,JSONException {
+        /*public static Company readCompanyJSONFile(Context context) throws IOException,JSONException {
 
             // Read content of company.json
             String jsonText = readText(context, R.raw.company);
@@ -60,5 +60,5 @@ public class ReadJSONExample {
             }
             return sb.toString();
         }
-
+*/
 }
